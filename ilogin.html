@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link href="ilogin.css" type="text/css" rel="stylesheet" >
+</head>
+<section class="row1">
+    <div id="header">
+      <h1 style="font-weight: 700;">
+        <a>INNOCAMP
+          <sub>
+            <span style="font-size: 1rem;font-weight: 400;">by</span><span style="font-size: 1.2rem;">&nbsp;
+            <span style="background: black;color: white;padding: 0.2rem;">INNOVA</span>
+            <span style="padding: 0.1rem;">SKILLS</span>
+          </sub>
+        </a>
+      </h1>
+    </div>
+    <div>
+      <hr>
+      <marquee>INNOCAMP IS A GROUP OF ASPIRING ENGINEERS WHO BELIEVE IN SHARING KNOWLEDGE FOR THE BENEFIT OF
+      EVERYONE SEEKING TO LEARN. OUR MAIN THRUST IS TO RESEARCH AND DOCUMENT INFORMATION REGARDING VARIOUS SUGGESTED TOPICS OF
+      INTEREST. THIS IS THEN SHARED IN THE FORM OF INFORMAL PRESENTATIONS OR HANDS-ON TUTORIALS. ON THIS SITE, YOU WILL FIND EVERYTHING
+      WE'VE ACCUMULATED SO FAR.</marquee>
+      <hr>
+    </div>
+  </section>
+<body>
+    <section class="total">
+        <div class="row2">
+            <ul>
+                <li><a href="icamp.html">Home</a></li>
+                <li><a href="iblog.html">Blog</a></li>
+                <li><a href="icourse.html">Courses</a></li>
+                <li><a class="active" href="ilogin.html">Login</a></li>
+                <li><a href="icont.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="login_content">
+                <div id="login_wrapper">
+                    <div id="login">
+                       <form action="post">
+                            <li>Email or Phone<br><input type="text" name="email"></li>
+                            <li>Password<br><input type="password" name="password"><br><a href="">Forgotten account?</a></li>
+                            <li><input type="submit" name="login" value="Log In"></li>
+                        </form>
+                    </div>
+                </div>
+            
+                <div id="wrapper">
+            
+                    <div id="div-1">
+            
+                    </div>
+            
+                    <div id="div-2">
+                        <h2 class="title">Registration</h2>
+                        <li><input type="text" placeholder="Full Name" name="Name" required></li>
+                        <li><input type="email" placeholder="Email" name="Email" required></li>
+                        <li><input type="text" value="+91" name="Countrycode" placeholder="" required></li>
+                        <li><input type="text" placeholder="Mobile" name="Mobile" minlength="10" maxlength="10" required></li>
+                        <li><select name="EmploymentStatus">
+                          <option disabled="disabled" selected="selected">Employment Status</option>
+                          <option value="Student">Student</option>
+                          <option value="Employed">Employed</option>
+                          <option value="Fresher">Fresher</option>
+                        </select>
+                        <select name="EducationalQualification">
+                          <option disabled="disabled" selected="selected">Educational Qualification</option>
+                          <option value="B. Tech">B. Tech</option>
+                          <option value="M. Tech">M. Tech</option>
+                          <option value="BCA/MCA">BCA/MCA</option>
+                          <option value="B.Sc/M.Sc">B.Sc/M.Sc</option>
+                          <option value="Diploma">Diploma</option>
+                          <option value="Other">Other</option>
+                        </select>
+                      </li>
+                        <li><select name="Source">
+                          <option disabled="disabled" selected="selected">How did you know about Innocamp</option>
+                          <option value="Youtube">Youtube</option>
+                          <option value="Instagram">Instagram</option>
+                          <option value="Facebook">Facebook</option>
+                          <option value="LinkedIn">LinkedIn</option>
+                          <option value="WhatsApp">WhatsApp</option>
+                          <option value="Referred by a friend">
+                            Referred by a friend
+                          </option>
+                          <option value="Other">Other</option>
+                        </select></li>
+                        <li><input type="password" placeholder="New password"></li>
+                        <li><input type="submit" value="REGISTER"></li><hr>
+                        <li id="register_page"><a href="">ELITE PASS</a> for a Tutors, Teachers or Trainers.</li>
+                    </div>
+            
+                </div>
+        </div>
+    </section>
+
+</body>
+   
+</html>
